@@ -1,4 +1,5 @@
 import type * as T from "./types";
+import { IUser, makeRandomUser } from "../../data";
 
 export const setUser = (payload: T.State): T.SetUserAction => ({
   type: "@remoteUser/setUser",
@@ -18,3 +19,5 @@ export const changePicture = (
   type: "@remoteUser/changePicture",
   payload,
 });
+
+// export const setUser = () => changeUser(makeRandomUser());
