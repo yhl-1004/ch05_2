@@ -56,7 +56,9 @@ export default function RemoteUserTest() {
         </Button>
       </div>
       <div className="flex justify-center p-4 mt-4">
-        <div>{user.picture.large}</div>
+        <div>
+          <img src={user.picture.large} />
+        </div>
         <div className="ml-4">
           <p className="text-xl text-bold">
             {user.name.title}. {user.name.first} {user.name.last}

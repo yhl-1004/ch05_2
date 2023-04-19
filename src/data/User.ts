@@ -45,6 +45,7 @@ export const makeRandomName = (): NameType => {
 
 export const makeRandomPicture = (): PictureType => {
   const large = I.randomAvatar();
+  // const large = C.randomAvartar();
   return { large: large };
 };
 

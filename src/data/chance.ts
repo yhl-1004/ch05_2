@@ -13,3 +13,4 @@ export const randomparagraphs = (sentences = 3) =>
   chance.paragraph({ sentences });
 export const randomFirstName = () => chance.first();
 export const randomLastName = () => chance.last();
+export const randomAvartar = (): string => chance.avatar();
